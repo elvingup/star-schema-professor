@@ -1,0 +1,53 @@
+<input>
+    
+    <requirements>
+        <view>
+        diagrama do modelo
+        </view>
+    </requirements>
+
+    <reference>
+    Descrição do desafio de modelagem dimensional
+
+Objetivo: 
+Criar o diagrama dimensional – star schema – com base no diagrama relacional disponibilizado.
+Foco:
+Professor – objeto de análise
+Vocês irão montar o esquema em estrela com o foco na análise dos dados dos professores. Sendo assim, a tabela fato deve refletir diversos dados sobre professor, cursos ministrados, departamento ao qual faz parte.... Por aí vocês já têm uma ideia do que deve compor a tabela fato do modelo em questão. 
+Obs.: Não é necessário refletir dados sobre os alunos!
+O que deve ser feito?
+Deverá ser criada a tabela Fato que contêm o contexto analisado. Da mesma forma, é necessária a criação das tabelas dimensão que serão compostas pelos detalhes relacionados ao contexto.
+Por fim, mas não menos importante, adicione uma tabela dimensão de datas. Para compensar a falta de dados de datas do modelo relacional, suponha que você tem acesso aos dados e crie os campos necessários para modelagem. 
+Ex: data de oferta das disciplinas, data de oferta dos cursos, entre outros. O formato, ou melhor, a granularidade, não está fixada. Podem ser utilizados diferentes formatos que correspondem a diferentes níveis de granularidade.
+
+        <attachment>
+        Utilize a imagem anexa como parte da referência.
+        </attachment>
+    </reference>
+
+    <about>
+        <scope>
+        Modelagem do banco de dados para análise de dados utilzando o Power BI
+            <observação> 
+            a modelagem deve ser um para muitos, i.e., 1:N 
+            a modelagem precisa ser Star Schema 
+            a tabela fato é a tabela Professor 
+            </observação>
+        </scope>
+
+        <description>
+        criação de um diagrama star-schema, cuja tabela fato é Professor
+        </description>
+
+        <role>
+        Comporte-se como se fosse um Data Analyst que precisa criar um Star Schema para fazer uma análise de dados utilizando o Power BI, conforme informações da tag reference e da imagem anexa ao prompt. 
+        </role>
+
+        <goal>
+        Seguir as instruções da tag reference para criar um diagrama do tipo Star Schema, cuja tabela fato é a tabela Professor 
+            <add>
+            adicione uma tabela dimensão de datas, conforme determinado pela tag reference
+            </add>
+        </goal>
+    </about>
+</input>
